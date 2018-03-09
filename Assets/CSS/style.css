@@ -1,0 +1,35 @@
+
+.quizContainer{
+        text-align: justify;
+        border: 2px solid #cd7f32;
+        border-radius: 10px;
+        margin-right: 5%;
+        margin-left: 5%;
+        font-size: 10pt bold;
+        background:rgba(255,255,255,0.5);
+}
+
+h1{
+    text-align: center;
+    background-color: mintcream;
+    color: navy;
+    font: bold;
+    margin-top: 20px;
+    margin-bottom:20px;
+    font-size: 52pt;
+    border: 2px solid midnightblue;
+    border-radius: 20px;
+    border-left-width: 100px;
+    border-right-width: 100px;
+}
+
+body {
+    background: url(DBZ.jpg);
+    background-size: cover;
+}
+
+button{
+    text-align: center;
+    color: black;
+    font:blue;
+}

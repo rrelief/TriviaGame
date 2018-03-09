@@ -1,0 +1,58 @@
+
+// create an array with a list of questions
+var DBSQ =[
+    "What is Gohan's daughter's name?"
+]
+ 
+//array of array w/ multiple choices and multiple answers so that it's easier to check answers
+var answers=[
+    [
+        "videl",
+        "Bulva",
+        "Mars",
+        "Pan",
+    ]
+]
+
+var correctAnswer=[
+    "Pan"
+]
+
+//A lil bit of Jquery...nneds to make a fution to generate the game for me (generate each question)
+var QuestionString = 0
+console.log(QuestionString)
+
+// var counter = function(){
+//     QuestionString++ 
+// }
+
+// console.log(funtion())
+
+//questions that the user got right and wrong so far
+var rightAnswersSoFar = 0
+console.log(rightAnswersSoFar)
+
+var wrongAnswers = 0
+console.log(wrongAnswers)
+
+//function to dynamicatlly load a button onto the page
+var createButton = $(<button></button>)
+
+function loadButton(){
+    $(div).append(createButton)
+}
+
+// function to set the answer to whatever the user clicks
+//function to create the actual question and corresponding answers
+//timer function
+//function to recognize when the timer has run out and the user hasn't answered
+//two functions --> 1 if answer is correct and 2 if wrong---> utilize the counter that we mentioned earlier in sesh
+
+
+
+// multiple choice with an answer
+// neeed possible answers
+// functionality to prove if the answer is correct
+// record the points for responses
+// next button that shows one question at a time then checks if it's right
+// timer --> for each question
